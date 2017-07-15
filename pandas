@@ -1,0 +1,2 @@
+index = (df[column_1] < 1) & (df[column_2] < 1)
+df.at[index, column_3] = df.at[index, column_3] + 1
